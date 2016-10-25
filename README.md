@@ -7,7 +7,9 @@ The SVG Annotate Panel loads an SVG and replaces text elements with grafana metr
 
 - **Metric Bindings**:
 
-  The fields in this section tell SVG Annotate which elements to replace (using a jquery selector).  The order corresponds to order of the Metrics in the Metrics tab.  There are two types of fields: Label and Value.  The Label field displays the "Alias By" option in metrics.  The Value field displays the metrics value.  The binding is a jquery selector, which targets elements inside the svg.  Html attributes like ID can be added in graphics editing applications like Adobe Illustrator.  Html attributes can also be added manually because SVGs are XML.
+  The fields in this section tell SVG Annotate which elements to replace (using a jquery selector).  The order of the bindings corresponds to the order of the Metrics in the Metrics tab.  The Label field displays the "Alias By" option in metrics.  The Value field displays the metrics value.  
+
+  The bindings themselves are jquery selectors, which target elements inside the svg.  Html attributes like 'id', 'class', etc can be added to the svg in graphics editing applications like Adobe Illustrator or manually in a text editor.
 
   Example: 
 
