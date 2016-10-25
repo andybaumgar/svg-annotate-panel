@@ -1,0 +1,25 @@
+<div class="editor-row">
+
+	<div class="section gf-form-group">
+		<h5 class="section-heading">Metric Bindings</h5>
+		<div ng-repeat="metric in ctrl.panel.metricMappings">
+			<div class="gf-form">
+				<span class="gf-form-label width-8">Label {{$index+1}} :</span>
+				<input type="text" class="gf-form-input max-width-10" ng-model="metric.label" placeholder="#jquery.selector" ctrl.refresh()>
+			</div>
+			<div class="gf-form">
+				<span class="gf-form-label width-8">Value {{$index+1}} :</span>
+				<input type="text" class="gf-form-input max-width-10" ng-model="metric.value" ctrl.refresh()>
+			</div>
+		</div>
+	</div>
+
+	<div class="section gf-form-group">
+		<h5 class="section-heading">Image</h5>
+		<div class="gf-form">
+			<span class="gf-form-label width-10">Image source url :</span>
+			<input type="text" class="gf-form-input max-width-12" ng-model="ctrl.panel.imageUrl" ctrl.refresh()>
+		</div>
+	</div>
+	
+</div>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["SVGAnnotateCtrl"],"mappings":";;;;;;;;AAAQA,qB,sBAAAA,e;;;2BAGNA,e","file":"module.js","sourcesContent":["import {SVGAnnotateCtrl} from './svg_annotate_ctrl';\n\nexport {\n  SVGAnnotateCtrl as PanelCtrl\n};\n"]}

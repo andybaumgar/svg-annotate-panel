@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "SVG Annotate",
+  "id": "grafana-svg-annotate-panel",
+
+  "info": {
+    "description": "SVG annotate panel for Grafana",
+    "author": {
+      "name": "andybaumgar"
+    },
+    "keywords": ["svg", "panel"],
+    "logos": {
+      "small": "src/img/svg-annotate-logo.svg",
+      "large": "src/img/svg-annotate-logo.svg"
+    },
+    "links": [
+      {"name": "Project site", "url": ""},
+      {"name": "MIT License",  "url": ""}
+    ],
+    "screenshots": [
+      {"name": "Options", "path": "src/img/screenshot-svg-annotate-options.png"}
+    ],
+    "version": "0.0.1",
+    "updated": "2016-09-02"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

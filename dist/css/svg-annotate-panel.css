@@ -1,0 +1,29 @@
+.svg-annotate-panel {
+  display: block;
+  margin:0px;
+  padding:0px;
+  overflow: auto;
+}
+
+.svg-annotate-wrapper{
+	text-align: center;
+}
+
+.svg-annotate-body {
+	width:100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.svg-annotate-body svg{
+	display: inline-block;
+	height:100%;
+	/*height:250px;*/
+}
+.svg-annotate-panel .warning-text{
+	position: relative;
+	top: 45%;
+	transform: translateY(-50%);
+
+	font-style: italic;
+}
