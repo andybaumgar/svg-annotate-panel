@@ -21,4 +21,4 @@ The SVG Annotate Panel loads an SVG and replaces text elements with grafana metr
 
 ### Screenshots
 
-- [Screenshot of the options screen]
+- [Screenshot of the options screen](src/img/screenshot-svg-annotate-options.png)
